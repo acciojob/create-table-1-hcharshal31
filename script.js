@@ -1,5 +1,9 @@
+
+
 function insert_Row() {
-    //Write your code here
-  
-  
+ let table = document.getElementById("sampleTable");
+table.innerHTML += `
+	<tr><td>Row3 cell1</td> 
+	<td>Row3 cell2</td></tr>
+	`;
 }
